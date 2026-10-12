@@ -1,35 +1,37 @@
 # Guillaume Marty
 
-**Développeur Python · automatisation · IA appliquée** — La Rochelle, France
-Licence en administration des réseaux et télécommunications · ancien technicien support chez Apple
+**AI Architect · Python · Applied AI** — La Rochelle, France
+BSc in Network & Telecom Administration · former Network Administrator at Apple (AppleCare Infrastructure) and Systems & Network Administrator at Sanofi
 
-🌐 [Site](https://lemoncondor.github.io/guillaume-marty/) · 💼 [LinkedIn](https://linkedin.com/in/guillaumemarty)
+🌐 [Website](https://lemoncondor.github.io/guillaume-marty/) · 💼 [LinkedIn](https://linkedin.com/in/guillaumemarty)
 
 ---
 
 ### 🔎 [GitHub Security Researcher (GSR)](https://github.com/LemonCondor/github-security-researcher)
 
-Un outil que j'ai construit en Python pour trouver de vrais bugs dans de grands projets open source, sans jamais prendre une alerte pour un résultat confirmé :
+A Python tool I built to find real bugs in large open-source projects without ever mistaking an alert for a confirmed result:
 
-- détecteurs statiques pour le code Go (tree-sitter) ;
-- chaque bug est **reproduit par un test qui échoue**, puis corrigé avec un test de régression ;
-- moteur de décision déterministe : **une analyse par LLM seule ne peut jamais confirmer un résultat** ;
-- plus de 500 tests automatisés · Apache-2.0 · développé avec Claude Code.
+- static detectors for Go code (tree-sitter);
+- every bug is **reproduced by a failing test**, then fixed with a regression test;
+- deterministic decision engine: **LLM analysis alone can never confirm a finding**;
+- more than 500 automated tests · Apache-2.0.
 
-### 🧩 Bugs trouvés et corrigés dans des projets open source
+### 🧩 Bugs found and fixed in open-source projects
 
-| Projet | Correctif | Statut |
+| Project | Fix | Status |
 |---|---|---|
-| **Kubernetes** git-sync | panic sur une clé de config git sans valeur — [#1006](https://github.com/kubernetes/git-sync/pull/1006) | ✅ fusionnée |
-| **Google** gVisor | erreur de verrou ignorée dans `Container.Update` — [#15632](https://github.com/google/gvisor/pull/15632) | 👍 approuvée |
-| **Canonical** LXD | panic du parseur de User-Agent — [#19250](https://github.com/canonical/lxd/pull/19250) | 👍 approuvée |
-| **NASA** F´ (fprime-tools) | auto-merge qui refusait du C++ valide — [issue #6176](https://github.com/nasa/fprime/issues/6176) · [#356](https://github.com/nasa/fprime-tools/pull/356) | ⏹️ fermée (fonction expérimentale, non prioritaire) |
-| **data.gouv.fr** (udata) | dates sans tirets lues comme une année entière — [#4007](https://github.com/opendatateam/udata/pull/4007) | 🔄 en revue |
-| **Prometheus** node_exporter · procfs · mysqld_exporter | parseurs `/proc` et binlog — [#3848](https://github.com/prometheus/node_exporter/pull/3848) · [#880](https://github.com/prometheus/procfs/pull/880) · [#1095](https://github.com/prometheus/mysqld_exporter/pull/1095) | 🔄 en revue |
-| **Google** cAdvisor · **Kubernetes** kube-state-metrics | [#3947](https://github.com/google/cadvisor/pull/3947) · [#3143](https://github.com/kubernetes/kube-state-metrics/pull/3143) | 🔄 en revue |
+| **Kubernetes** git-sync | panic on a git config key without a value — [#1006](https://github.com/kubernetes/git-sync/pull/1006) | ✅ merged |
+| **Google** gVisor | ignored lock error in `Container.Update` — [#15632](https://github.com/google/gvisor/pull/15632) | 👍 approved |
+| **Canonical** LXD | User-Agent parser panic — [#19250](https://github.com/canonical/lxd/pull/19250) | 👍 approved |
+| **NASA** PO.DAAC l2ss-py | no data for northern-hemisphere granules — [#465](https://github.com/podaac/l2ss-py/pull/465) | 🔄 in review |
+| **NASA** harmony-py | EDR time window shifted by the UTC offset — [#155](https://github.com/nasa/harmony-py/pull/155) | 🔄 in review |
+| **data.gouv.fr** (udata) | undashed dates read as a whole year — [#4007](https://github.com/opendatateam/udata/pull/4007) | 🔄 in review |
+| **Prometheus** node_exporter · procfs · mysqld_exporter | `/proc` and binlog parsers — [#3848](https://github.com/prometheus/node_exporter/pull/3848) · [#880](https://github.com/prometheus/procfs/pull/880) · [#1095](https://github.com/prometheus/mysqld_exporter/pull/1095) | 🔄 in review |
+| **Google** cAdvisor · **Kubernetes** kube-state-metrics | [#3947](https://github.com/google/cadvisor/pull/3947) · [#3143](https://github.com/kubernetes/kube-state-metrics/pull/3143) | 🔄 in review |
+| **NASA** F´ (fprime-tools) | auto-merge rejected valid C++ — [#356](https://github.com/nasa/fprime-tools/pull/356) | ⏹️ closed (experimental feature, not prioritised) |
 
-<sub>Statuts au 12/10/2026. Bugs fonctionnels et de robustesse, chacun reproduit par un test avant d'être proposé.</sub>
+<sub>Statuses as of 2026-10-12. Functional and robustness bugs, each reproduced by a test before being submitted.</sub>
 
-### 🛠️ Outils
+### 🛠️ Tools
 
-Python · Go (lecture et correctifs) · tree-sitter · pytest · fuzzing · Claude Code · LLM · Linux · Git · réseaux
+Python · Go (reading and fixing) · tree-sitter · pytest · fuzzing · LLM integration · Linux · Git · networking
