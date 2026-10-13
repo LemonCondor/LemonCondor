@@ -26,6 +26,7 @@ A Python tool I built to find real bugs in large open-source projects without ev
 | **Apache Airflow** | API server fails to start on an IPv6 host with gunicorn — [#74631](https://github.com/apache/airflow/pull/74631) | 🔄 in review |
 | **AWS Powertools** | AppSync Events wildcard route matches sibling channels — [#8546](https://github.com/aws-powertools/powertools-lambda-python/pull/8546) | 🔄 in review |
 | **Trivy** | npm packages with several licenses lose them all — [#11398](https://github.com/aquasecurity/trivy/pull/11398) | 🔄 in review |
+| **Syft** (Anchore) | Go pre-release versions truncated (`rc.1` → `rc`) — [#5422](https://github.com/anchore/syft/pull/5422) | 🔄 in review |
 | **GoReleaser** | Nested Dockerfile ARG not expanded in base image — [#7203](https://github.com/goreleaser/goreleaser/pull/7203) | 🔄 in review |
 | **Tailscale** | IPv6 DNAT rules without brackets (Kubernetes operator) — [#21770](https://github.com/tailscale/tailscale/pull/21770) | 🔄 in review |
 | **containerd** (CNCF) | devmapper `Mounts` lost the snapshot error — [#14335](https://github.com/containerd/containerd/pull/14335) | 🔄 in review |
