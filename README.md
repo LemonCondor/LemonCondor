@@ -1,7 +1,7 @@
 # Guillaume Marty
 
-**AI & Python Automation Engineer** — La Rochelle, France
-BSc in Network & Telecom Administration · former Mac Support Technician at Apple (AppleCare, 2015–2023) and Systems & Network Administrator at Sanofi
+**AI & Python Automation Developer** — La Rochelle, France
+Network & Telecom Administrator diploma (m2i, 2016) · Systems & Network Technician at Sanofi (2018–2022) · Tier 2 Mac Support Technician at Apple (2022–2025) · self-taught in AI since 2025
 
 🌐 [Website](https://lemoncondor.github.io/guillaume-marty/) · 💼 [LinkedIn](https://linkedin.com/in/guillaumemarty)
 
