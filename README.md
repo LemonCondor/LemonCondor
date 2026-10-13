@@ -21,8 +21,16 @@ A Python tool I built to find real bugs in large open-source projects without ev
 | Project | Fix | Status |
 |---|---|---|
 | **Kubernetes** git-sync | panic on a git config key without a value — [#1006](https://github.com/kubernetes/git-sync/pull/1006) | ✅ merged |
-| **Google** gVisor | ignored lock error in `Container.Update` — [#15632](https://github.com/google/gvisor/pull/15632) | 👍 approved |
+| **Google** gVisor | ignored lock error in `Container.Update` — [#15632](https://github.com/google/gvisor/pull/15632) | ✅ merged |
 | **Canonical** LXD | User-Agent parser panic — [#19250](https://github.com/canonical/lxd/pull/19250) | 👍 approved |
+| **Tailscale** | IPv6 DNAT rules without brackets (Kubernetes operator) — [#21770](https://github.com/tailscale/tailscale/pull/21770) | 🔄 in review |
+| **containerd** (CNCF) | devmapper `Mounts` lost the snapshot error — [#14335](https://github.com/containerd/containerd/pull/14335) | 🔄 in review |
+| **Celery** | chain/group `repr` mangled task names and arguments — [#10855](https://github.com/celery/celery/pull/10855) | 🔄 in review |
+| **Netflix** Metaflow | AWS Batch tags with `=` in the value crashed — [#3403](https://github.com/Netflix/metaflow/pull/3403) | 🔄 in review |
+| **Unidata** MetPy | exact Lambert W inversion for `dewpoint` (Ambaum 2020) — [#4153](https://github.com/Unidata/MetPy/pull/4153) | 🔄 in review |
+| **Sandia National Labs** wiretap | IPv6 API URLs without brackets — [#114](https://github.com/sandialabs/wiretap/pull/114) | 🔄 in review |
+| **NASA** earthdata-varinfo | NetCDF-4 `valid_range` ignored in UMM-Var — [#115](https://github.com/nasa/earthdata-varinfo/pull/115) | 🔄 in review |
+| **INSEE** pynsee | cache key mixed up `startPeriod`/`endPeriod` queries — [#311](https://github.com/InseeFrLab/pynsee/pull/311) | 🔄 in review |
 | **NASA** PO.DAAC l2ss-py | no data for northern-hemisphere granules — [#465](https://github.com/podaac/l2ss-py/pull/465) | 🔄 in review |
 | **NASA** harmony-py | EDR time window shifted by the UTC offset — [#155](https://github.com/nasa/harmony-py/pull/155) | 🔄 in review |
 | **data.gouv.fr** (udata) | undashed dates read as a whole year — [#4007](https://github.com/opendatateam/udata/pull/4007) | 🔄 in review |
