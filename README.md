@@ -1,6 +1,6 @@
 # Guillaume Marty
 
-**AI Architect · Python · Applied AI** — La Rochelle, France
+**AI & Python Automation Engineer** — La Rochelle, France
 BSc in Network & Telecom Administration · former Mac Support Technician at Apple (AppleCare, 2015–2023) and Systems & Network Administrator at Sanofi
 
 🌐 [Website](https://lemoncondor.github.io/guillaume-marty/) · 💼 [LinkedIn](https://linkedin.com/in/guillaumemarty)
