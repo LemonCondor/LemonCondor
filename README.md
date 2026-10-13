@@ -1,7 +1,7 @@
 # Guillaume Marty
 
 **AI Architect · Python · Applied AI** — La Rochelle, France
-BSc in Network & Telecom Administration · former Network Administrator at Apple (AppleCare Infrastructure) and Systems & Network Administrator at Sanofi
+BSc in Network & Telecom Administration · former Mac Support Technician at Apple (AppleCare, 2015–2023) and Systems & Network Administrator at Sanofi
 
 🌐 [Website](https://lemoncondor.github.io/guillaume-marty/) · 💼 [LinkedIn](https://linkedin.com/in/guillaumemarty)
 
@@ -42,7 +42,7 @@ A Python tool I built to find real bugs in large open-source projects without ev
 | **Google** cAdvisor · **Kubernetes** kube-state-metrics | [#3947](https://github.com/google/cadvisor/pull/3947) · [#3143](https://github.com/kubernetes/kube-state-metrics/pull/3143) | 🔄 in review |
 | **NASA** F´ (fprime-tools) | auto-merge rejected valid C++ — [#356](https://github.com/nasa/fprime-tools/pull/356) | ⏹️ closed (experimental feature, not prioritised) |
 
-<sub>Statuses as of 2026-10-12. Functional and robustness bugs, each reproduced by a test before being submitted.</sub>
+<sub>Statuses as of 2026-10-13. Functional and robustness bugs, each reproduced by a test before being submitted.</sub>
 
 ### 🛠️ Tools
 
