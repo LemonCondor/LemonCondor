@@ -23,6 +23,10 @@ A Python tool I built to find real bugs in large open-source projects without ev
 | **Kubernetes** git-sync | panic on a git config key without a value — [#1006](https://github.com/kubernetes/git-sync/pull/1006) | ✅ merged |
 | **Google** gVisor | ignored lock error in `Container.Update` — [#15632](https://github.com/google/gvisor/pull/15632) | ✅ merged |
 | **Canonical** LXD | User-Agent parser panic — [#19250](https://github.com/canonical/lxd/pull/19250) | 👍 approved |
+| **Apache Airflow** | API server fails to start on an IPv6 host with gunicorn — [#74631](https://github.com/apache/airflow/pull/74631) | 🔄 in review |
+| **AWS Powertools** | AppSync Events wildcard route matches sibling channels — [#8546](https://github.com/aws-powertools/powertools-lambda-python/pull/8546) | 🔄 in review |
+| **Trivy** | npm packages with several licenses lose them all — [#11398](https://github.com/aquasecurity/trivy/pull/11398) | 🔄 in review |
+| **GoReleaser** | Nested Dockerfile ARG not expanded in base image — [#7203](https://github.com/goreleaser/goreleaser/pull/7203) | 🔄 in review |
 | **Tailscale** | IPv6 DNAT rules without brackets (Kubernetes operator) — [#21770](https://github.com/tailscale/tailscale/pull/21770) | 🔄 in review |
 | **containerd** (CNCF) | devmapper `Mounts` lost the snapshot error — [#14335](https://github.com/containerd/containerd/pull/14335) | 🔄 in review |
 | **Celery** | chain/group `repr` mangled task names and arguments — [#10855](https://github.com/celery/celery/pull/10855) | 🔄 in review |
