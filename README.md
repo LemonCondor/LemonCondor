@@ -1,6 +1,6 @@
 # Guillaume Marty
 
-**AI & Python Automation Developer** — La Rochelle, France
+**AI & Python Automation Developer** — Fontenay-le-Comte, France
 Network & Telecom Administrator diploma (m2i, 2016) · Systems & Network Technician at Sanofi (2018–2022) · Tier 2 Mac Support Technician at Apple (2022–2025) · self-taught in AI 
 
 🌐 [Website](https://lemoncondor.github.io/guillaume-marty/) · 💼 [LinkedIn](https://linkedin.com/in/guillaumemarty)
@@ -29,6 +29,8 @@ A Python tool I built to find real bugs in large open-source projects without ev
 | **Prometheus** procfs | panics on short lines in `/proc` and `/sys` parsers — [#880](https://github.com/prometheus/procfs/pull/880) | ✅ merged |
 | **Prometheus** mysqld_exporter | wrong binlog file number for names with dots — [#1095](https://github.com/prometheus/mysqld_exporter/pull/1095) | ✅ merged |
 | **pydata** xarray | string dimension names lost their suffix (`n4_chars` → `n4`) — [#11757](https://github.com/pydata/xarray/pull/11757) | ✅ merged |
+| **OpenTelemetry** Python | URL-encoded Jaeger `uber-trace-id` header rejected — [#5793](https://github.com/open-telemetry/opentelemetry-python/pull/5793) | ✅ merged |
+| **Pillow** | arithmetic between two TIFF `IFDRational` values failed — [#10321](https://github.com/python-pillow/Pillow/pull/10321) | ✅ merged |
 | **Canonical** LXD | User-Agent parser panic — [#19250](https://github.com/canonical/lxd/pull/19250) | 👍 approved |
 | **NASA** harmony-py | EDR time window shifted by the UTC offset — [#155](https://github.com/nasa/harmony-py/pull/155) | 👍 approved |
 | **Apache Airflow** | API server fails to start on an IPv6 host with gunicorn — [#74631](https://github.com/apache/airflow/pull/74631) | 🔄 in review |
