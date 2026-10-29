@@ -1,7 +1,7 @@
 <h1 align="center">Guillaume Marty</h1>
 
 <p align="center">
-  <b>AI &amp; Python Automation Developer</b> — Fontenay-le-Comte, France<br>
+  <b>AI &amp; Python Automation Developer</b> — La Rochelle, France<br>
   I build tools that find <b>real, reproducible bugs</b> in large open-source projects — and I fix them upstream.
 </p>
 
