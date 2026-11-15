@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/merged_upstream_PRs-11-2ea44f?style=for-the-badge" alt="11 merged PRs">
+  <img src="https://img.shields.io/badge/merged_upstream_PRs-21-2ea44f?style=for-the-badge" alt="21 merged PRs">
   <img src="https://img.shields.io/badge/automated_tests-500%2B-0a7bbb?style=for-the-badge" alt="500+ tests">
   <img src="https://img.shields.io/badge/languages-Python_·_Go_·_JS-444?style=for-the-badge" alt="languages">
 </p>
@@ -54,7 +54,13 @@ On a blind replay against AWS Powertools, the hunter re-discovered two known bug
 | **Prometheus** mysqld_exporter | wrong binlog file number for names with dots — [#1095](https://github.com/prometheus/mysqld_exporter/pull/1095) | ✅ merged |
 | **pydata** xarray | string dimension names lost their suffix — [#11757](https://github.com/pydata/xarray/pull/11757) | ✅ merged |
 | **Celery** | chain/group `repr` mangled task names and arguments — [#10855](https://github.com/celery/celery/pull/10855) | ✅ merged |
-| **Pillow** | arithmetic between two TIFF `IFDRational` values failed — [#10321](https://github.com/python-pillow/Pillow/pull/10321) | ✅ merged |
+| **Pillow** | arithmetic between two TIFF `IFDRational` values failed — [#10321](https://github.com/python-pillow/Pillow/pull/10321); non-numeric XBM `#define` now raises `SyntaxError` — [#10319](https://github.com/python-pillow/Pillow/pull/10319); tRNS grey level scaled for 2/4-bit grayscale PNGs — [#10320](https://github.com/python-pillow/Pillow/pull/10320) | ✅ merged |
+| **OpenTelemetry** Python contrib | empty entries in the excluded-URLs setting ignored — [#5186](https://github.com/open-telemetry/opentelemetry-python-contrib/pull/5186) | ✅ merged |
+| **Canonical** LXD | panic on a whitespace-only User-Agent product — [#19250](https://github.com/canonical/lxd/pull/19250) | ✅ merged |
+| **Anchore** Syft | truncated pre-release versions in Go binaries — [#5422](https://github.com/anchore/syft/pull/5422) | ✅ merged |
+| **containerd** | devmapper `Mounts` swallowed the `GetSnapshot` error — [#14335](https://github.com/containerd/containerd/pull/14335) | ✅ merged |
+| **NASA** PO.DAAC l2ss-py | spatial subset returned no data for northern-hemisphere granules — [#465](https://github.com/podaac/l2ss-py/pull/465) | ✅ merged |
+| **Mozilla AI** any-llm | Bedrock, Anthropic and Ollama conversion fixes — [#1563](https://github.com/mozilla-ai/any-llm/pull/1563), [#1564](https://github.com/mozilla-ai/any-llm/pull/1564), [#1565](https://github.com/mozilla-ai/any-llm/pull/1565) | ✅ merged |
 | **GoReleaser** | nested Dockerfile `ARG` not expanded in the base image — [#7203](https://github.com/goreleaser/goreleaser/pull/7203) | ✅ merged |
 | **INSEE** pynsee | cache key mixed up `startPeriod`/`endPeriod` queries — [#311](https://github.com/InseeFrLab/pynsee/pull/311) | ✅ merged |
 
