@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/merged_upstream_PRs-21-2ea44f?style=for-the-badge" alt="21 merged PRs">
+  <img src="https://img.shields.io/badge/upstream_PRs-merged-2ea44f?style=for-the-badge" alt="merged upstream PRs">
   <img src="https://img.shields.io/badge/automated_tests-500%2B-0a7bbb?style=for-the-badge" alt="500+ tests">
   <img src="https://img.shields.io/badge/languages-Python_·_Go_·_JS-444?style=for-the-badge" alt="languages">
 </p>
@@ -22,6 +22,7 @@
   <img src="https://img.shields.io/badge/Google-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google">
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS">
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes">
+  <img src="https://img.shields.io/badge/NASA-0B3D91?style=flat-square&logo=nasa&logoColor=white" alt="NASA">
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus">
   <img src="https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white" alt="OpenTelemetry">
   <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery">
